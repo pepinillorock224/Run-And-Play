@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:  border-box;
+}
+
+
+body{
+    background-image: url(fondocontacto.jpg);
+    background-size: 100vw 100VH;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+form{
+    max-width: 400px;
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0,0,4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 90px;
+    border-radius: 1em;
+}
+
+.form_container{
+    width: 100%;
+    display:grid;
+    gap: 1e;
+    grid-auto-columns: 100%;
+}
+
+.form_title{
+    color: rgb(15, 13, 13);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+width: 100%;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+font-size: 17px;
+border: none;
+}
+
+textarea{
+    font-family: inherit;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    font-family: inherit;
+    background: #0b0b0c;
+    color: #fff;
+    padding: 4px;
+}
+
+#boton:hover{
+    font-family: inherit;
+    cursor: auto;
+}
+
+@media (max-width:480px) {
+    form{
+        width: 100%;
+    }
+}
+#caja1{
+    background-color: #96eaf5;
+    border-radius: 0.55rem;
+}
+#texto{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:normal;
+    
+}
+::placeholder {
+    color: blue;
+    font-size: 1em;
+  }
+  #text1 {
+    margin-top: 0.5rem;
+    border-radius: 0.55rem;
+    border: 1px solid #ced4da;
+    height: 2.125rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    color: #495057;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #text2{
+    margin-top: 0.5rem;
+    border-radius: 0.55rem;
+    border: 1px solid #ced4da;
+    height: 2.125rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    color: #495057;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #text3{
+    margin-top: 0.5rem;
+    border-radius: 0.55rem;
+    border: 1px solid #dad0ce;
+    height: 2.125rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    color: #495057;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #text4{
+    margin-top: 1rem;
+    border-radius: 0.55rem;
+    border: 1px solid #ced4da;
+    height: 2.125rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    color: #495057;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  form input:hover {
+    box-shadow: 0 0 5px gray;
+  }
+  
+  form input:focus {
+    box-shadow: 0 0 5px #3786da;
+    border: 1px solid #30567e;
+  }
+  #checkbox{
+    box-shadow: 0 0 5px #3786da;
+    border: 1px solid #30567e;
+
+
+  }
+
+  #input20{
+    width: 45px;
+    height: 20px;
+   
+  }

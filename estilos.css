@@ -24,7 +24,7 @@ nav > ul {
 	display:table;
 	/*Quitamos el overflow hidden que estaba aqui*/
 	width:100%;
-	background:#000;
+	
 	position:relative;
 }
 

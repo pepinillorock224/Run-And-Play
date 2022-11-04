@@ -152,11 +152,15 @@
 			color: #FFFFFF;
 			width: 40px;
 			height: 30px;
+			
 
 		}
 
 		#text {
-			margin-left: 105px;
+			margin-left: 110px;
+			width: 220px;
+			top: 10px; 
+			left: 0px;
 
 		}
 
@@ -186,6 +190,7 @@
 			color: #ffffff;
 			width: 210px;
 			height: -60px;
+			
 		}
 
 		#texto5 {
@@ -201,35 +206,64 @@
 			width: 210px;
 			height: -60px;
 		}
-	</style>
+
+			
+			
+			.flex-container {
+			  display: flex;
+			  flex-direction: row;
+			  font-size: 30px;
+			  text-align: center;
+			}
+			
+			.flex-item-left {
+			  background-color: red;
+			  flex: 50%;
+			}
+			
+			.flex-item-right {
+			  
+			  padding: 10px;
+			  flex: 50%;
+			}
+			
+			/* Responsive layout - makes a one column-layout instead of two-column layout */
+			@media (max-width: 800px) {
+			  .flex-container {
+				flex-direction: column;
+			  }
+			}
+			</style>
+	
 </head>
 
-<body padding="0" margin="0" style="background:  #FFFFFF;">
-	<div id="capa" style="position:relative; top:-20px; left:-195px; width:114.3%; height: 190px; z-index:1; visibility: visible;
-     background-color:#ffffff ; 
+<body  style="background:  #FFFFFF;">
+	<div   id="capa" style="position:relative; top:-20px; left:-195px; width:114.3%; height: 190px; z-index:1; visibility: visible;
+     
 	  clip:rect(1 auto auto 3) ;
 	  ">
-		<img src="sbantransp.png" id="imagen2">
+	  
+		<img   src="imagenes/sbantransp.png" id="imagen2">
 		</img>
 
 		<div id="capa" style="position:relative; top:50px; left: 1170px; width: 200px; height: 100px; z-index:1; visibility: visible;
 	    ">
 			<a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">
-				<input type="image" src="facebook.jpg"
+				<input type="image" src="imagenes/facebook.jpg"
 					style="  width: 90px; height: 90px; clip-path: circle(28.7% at 50% 50%);  " id="imagenlink">
 			</a>
 		</div>
 		<div id="capa2" style="position:relative; top:-50px; left: 1280px; width: 100px; height: 100px; z-index:1; visibility: visible;
 	    ">
 			<a href="https://www.whatsapp.com/?lang=es" target="_blank">
-				<input type="image" src="whatsremovebg.png"
+				<input type="image" src="imagenes/whatsremovebg.png"
 					style="  width: 90px; height: 90px; clip-path: circle(28.7% at 50% 50%);  " id="imagenlink">
 			</a>
 		</div>
-		<div id="capa3" style="position:relative; top:-145px; left: 1390px; width: 100px; height: 100px; z-index:1; visibility: visible;
+		<div   id="capa3" style="position:relative; top:-145px; left: 1390px; width: 100px; height: 100px; z-index:1; visibility: visible;
 	    ">
 			<a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank">
-				<input type="image" src="gmaillogo.png"
+				<input type="image" src="imagenes/gmaillogo.png"
 					style="  width: 80px; height: 80px;clip-path: circle(43.1% at 50% 50%);  " id="imagenlink">
 			</a>
 		</div>
@@ -237,62 +271,70 @@
 	<div id="capa" style="position:relative; top:-210px; left:30px; width:135px; height:130px; z-index:1; visibility: visible;
      background-color:#ffffff; 
 	  clip:rect(1 auto auto 3);">
-		<img src="logitorun.png" id="imagen1">
+		<img src="imagenes/logitorun.png" id="imagen1">
 		</img>
 	</div>
 
-	<div id="capa" style="position:relative; top:-160px; left:-10px; width:100%; height:80px; z-index:1; visibility: visible;
-     background-color:#030000; 
+	<div  id="capa" style="position:relative; top:-160px; left:-10px; width:100%; height:80px; z-index:1; visibility: visible;
+    background-color:black;
 	 clip:rect(1 auto auto 3);">
-		<header>
+		<header >
 			<nav>
 				<ul>
-					<li><a href="#"><span class="primero"></span>INICIO</a></li>
-					<li><a href="#"><span class="segundo"></span>CONÓCENOS</a></li>
-					<li><a href="#"><span class="tercero"></span>PRODUCTOS</a></li>
+					<li><a href="pagina proyecto.html"><span class="primero"></span>INICIO</a></li>
+					<li><a href="paginasweb/SECCIONES RUN AND PLAY/conocenos/pagina proyecto.html 1.html"><span class="segundo"></span>CONÓCENOS</a></li>
+					<li><a href="paginasweb/SECCIONES RUN AND PLAY/productos/producto.html"><span class="tercero"></span>PRODUCTOS</a></li>
 					<li><a href="#"><span class="cuarto"></span>ACERCA DEL PRODUCTO</a></li>
-					<li><a href="#"><span class="quinto"></span>CONTÁCTANOS</a></li>
+					<li><a href="prueba.html"><span class="quinto"></span>CONTÁCTANOS</a></li>
 				</ul>
 			</nav>
 		</header>
 
-		<img src="fondo1.jpg" id="imagen6">
-		<div id="capa4" style="position:relative; top:80px; left:580px; z-index:1; visibility: visible;">
-			<p id="texto5" style="font-size:28px">Estampamos cada parte de tu vida...<br>en ropa de calidad.</p>
+		<img src="imagenes/fondo1.jpg" id="imagen6">
+		<div id="capa4" style="position:relative; top:80px; left:500px; z-index:1; visibility: visible;">
+			<p id="texto5" style="font-size:23px ;text-align: center;">Estampamos cada parte de tu vida...<br> en ropa de calidad.  </p>
 
 		</div>
-		<div id="capa4" style="position:relative; top:157px; left:580px; z-index:1; visibility: visible;">
+		<div id="capa4" style="position:relative; top:193px; left:580px; z-index:1; visibility: visible;">
 			<p id="texto3" style="font-size:28px"> Nuestros</p>
 
 		</div>
-		<div id="capa" name="footer" style="position:absolute; top: 460px; left:698px; width:130px; height: 30px; z-index:1; visibility: visible;bottom:0%;
-     background-color:#009be2;clip:rect(1 auto auto 3); ">
+		<div id="capa" name="footer" style="position:absolute; top: 449px; left:698px; width:130px; height: 30px; z-index:1; visibility: visible;bottom:0%;
+     background-color:#1fc1ff;clip:rect(1 auto auto 3); ">
 			<div id="capa4" style="position:relative; top:-20px; left:10px; z-index:1; visibility: visible;">
 				<strong>
 					<h2 id="texto4"><em>productos</em> </h2>
 				</strong>
 			</div>
 		</div>
-		<img src="gorros1.jpg" id="imagen7">
-		<img src="deportivo1.jpg" id="imagen8">
-		<img src="ropaM1.jpg" id="imagen9">
+		<img src="imagenes/gorros1.jpg" id="imagen7">
+		<img src="imagenes/deportivo1.jpg" id="imagen8">
+		<img src="imagenes/ropaM1.jpg" id="imagen9">
 		<button id="boton1">más informacion</button>
 		<button id="boton2">más informacion</button>
 		<button id="boton3">más informacion</button>
 	</div>
 	<div id="capa" name="footer" style="position:absolute; top: 1110px;  width:100%; height: 430px; z-index:1; visibility: visible;bottom:0%;
- background-color:blue;clip:rect(1 auto auto 3); margin: 0%;">
-		<div id="capa4" style="position:relative; top:157px; left:580px; z-index:1; visibility: visible;">
+ background-color:#1fc1ff;clip:rect(1 auto auto 3); margin: 0%;">
+		<div id="capa4" style="position:relative; top:-10px; left:555px; z-index:1; visibility: visible;">
 			<p id="texto6" style="font-size:28px"> Acerca de</p>
 
 		</div>
 	</div>
+	<div id="capa" name="footer" style="position:absolute; top: 1130px; left:675px; width:130px; height: 30px; z-index:1; visibility: visible;bottom:0%;
+     background-color:#3cad08fb;clip:rect(1 auto auto 3); ">
+			<div id="capa4" style="position:relative; top:-20px; left:10px; z-index:1; visibility: visible;">
+				<strong>
+					<h2 id="texto4"><em>nosotros</em> </h2>
+				</strong>
+			</div>
+		</div>
 	<div id="capa" name="footer" style="position:absolute; top: 1530px;  width:100%; height: 250px; z-index:1; visibility: visible;bottom:0%;
  background-color:#030000;clip:rect(1 auto auto 3); margin: 0%;">
-		<img src="teleforemovebg.png" id="imagen3">
-		<img src="whatsremovebg.png" id="imagen4">
-		<img src="logogmail.png" id="imagen5">
-		<div id="text">
+		<img src="imagenes/teleforemovebg.png" id="imagen3">
+		<img src="imagenes/whatsremovebg.png" id="imagen4">
+		<img src="imagenes/logogmail.png" id="imagen5">
+		<div id="text" style="background-color:#030000 ;">
 			<strong>
 				<h2><em>Contacto:</em></h2>
 				<h3>3123145678</h3>
@@ -306,7 +348,7 @@
 		<div id="capa4" style="position:relative; top:-210px; left:620px;; z-index:1; visibility: visible;
       
 	  clip:rect(1 auto auto 3);">
-			<img src="logo run perfecto.png" id="imagen0">
+			<img src="imagenes/logo run perfecto.png" id="imagen0">
 			</img>
 		</div>
 		<div id="capa4" style="position:relative; top:-200px; left:580px; z-index:1; visibility: visible;">
@@ -318,15 +360,15 @@
 			</strong>
 		</div>
 		<div id="capa4" style="position:relative; top:-395px; left:1025px; z-index:1; visibility: visible;">
-			<img src="facebook.jpg" id="imagen01" style="clip-path: circle(28.7% at 50% 50%);">
+			<img src="imagenes/facebook.jpg" id="imagen01" style="clip-path: circle(28.7% at 50% 50%);">
 			</img>
 		</div>
 		<div id="capa4" style="position:relative; top:-469px; left:1080px; z-index:1; visibility: visible;">
-			<img src="instagram logo.png" id="imagen01" style="clip-path: circle(28.7% at 50% 50%);">
+			<img src="imagenes/instagram logo.png" id="imagen01" style="clip-path: circle(28.7% at 50% 50%);">
 			</img>
 		</div>
 		<div id="capa4" style="position:relative; top:-550px; left:1130px; z-index:1; visibility: visible;">
-			<img src="tik-tok logo.jpg" id="imagen02" style="clip-path: circle(28.7% at 50% 50%);">
+			<img src="imagenes/tik-tok logo.jpg " id="imagen02" style="clip-path: circle(28.7% at 50% 50%);">
 			</img>
 		</div>
 		<div id="capa4" style="position:relative; top:-550px; left:1050px; z-index:1; visibility: visible;">
