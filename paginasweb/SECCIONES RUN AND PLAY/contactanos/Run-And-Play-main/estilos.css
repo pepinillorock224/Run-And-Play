@@ -57,7 +57,7 @@ nav > ul > li > ul {
 nav > ul li a {
 	color:#fff;
 	display:block;
-	line-height:20px;
+	line-height:40px;
 	padding:20px;
 	position: relative;
 	text-align:center;
@@ -74,7 +74,7 @@ nav > ul > li > ul > li a:hover {
 }
 
 nav > ul > li > a span {
-	background:#174459;
+	background:yellow;
 	display:block;
 	height:100%;
 	width:100%;
@@ -90,7 +90,7 @@ nav > ul > li > a span {
 
 nav > ul > li > a span .icon {
 	display:block;
-	line-height:60px;
+	line-height:90px;
 }
 
 nav > ul > li > a:hover > span {
@@ -148,7 +148,7 @@ body{margin: 0;
   #imagen3{
 			  position: absolute;
 			  top: 55px;
-			  left: 40px;
+			  left: 120px;
 			  width:90px ;
 			  height:40px ;
 			  background-repeat:no-repeat;
@@ -158,7 +158,7 @@ body{margin: 0;
 	   #imagen4{
 		  position: absolute;
 		  top: 105px;
-		  left: 50px;
+		  left: 130px;
 		  width:60px ;
 		  height:40px ;
 		  background-repeat:no-repeat;
@@ -167,7 +167,7 @@ body{margin: 0;
 	   #imagen5{
 		  position: absolute;
 		  top: 155px;
-		  left: 50px;
+		  left: 130px;
 		  width:60px ;
 		  height:40px ;
 		  background-repeat:no-repeat;
@@ -197,10 +197,22 @@ h3{
 
   }
 
-  #text{
-	  margin-left: 110px;
-	   
-  }
+  #texti1{
+	top: 10px;
+	left: 50px;
+	width: 320px;
+	height: -60px;
+	font-family: Arial, Helvetica, sans-serif;
+				}
+				#texti2{
+					top: 10px;
+					left: 90px;
+					width: 320px;
+					height: -60px;
+					font-family: Arial, Helvetica, sans-serif;
+								}
+					   
+  
   #texto1{
 	  color:#FFFFFF;
 	  width: 210px;
