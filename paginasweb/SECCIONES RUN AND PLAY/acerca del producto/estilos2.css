@@ -1,0 +1,125 @@
+   *{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider{
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    
+}
+
+img{
+    width: 600px;
+    height: 900px;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+.slider, .slider ul, .slider img{
+    height: 100vh;
+}
+}
+
+#categoria_niño{
+    margin-top: -362px;
+}
+
+#gorros{
+    margin: 35px;
+    width: 300px;
+    height: 270px;
+    margin-left: 850px;
+}
+
+#categoria_gorros{
+    margin-top: -362px;
+}
+
+#uno{
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+#dos{
+    margin-left: 425px;
+    margin-top: -115px;
+}
+
+#tres{
+    margin-left: 400px;
+    margin-top: -115px;
+}
+
+#img1{
+    width: 300px;
+    height: 250px;
+}
+
+#caja1{
+    margin-top: 50px;
+    
+}
+#img2{
+    width: 300px;
+    height: 250px;
+}
+
+#caja2{
+    margin-left: 460px;
+    margin-top: -280px;
+}
+
+#img3{
+    width: 300px;
+    height: 250px;
+}
+
+#caja3{
+    margin-left: 900px;
+    margin-top: -280px;
+}
+
+#uno{
+margin-top: 10px;
+margin-left: 20px;
+}
+
+#dos{
+margin-top: -44px;
+margin-left: 470px;
+}
+
+#tres{
+ margin-top: -45px;
+ margin-left: 920px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -5,10 +5,295 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Productos</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos2.css">
+
+
+    <style>
+        #imagen0 {
+
+            width: 110px;
+            height: 110px;
+        }
+
+        #imagen1 {
+
+            width: 280px;
+            height: 180px;
+        }
+
+        #imagen2 {
+            position: absolute;
+            top: 10px;
+            left: 200px;
+            width: 1200px;
+            height: 180px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        #imagen3 {
+            position: absolute;
+            top: 55px;
+            left: 90px;
+            width: 90px;
+            height: 40px;
+            background-repeat: no-repeat;
+            background-position: center;
+
+        }
+
+        #imagen4 {
+            position: absolute;
+            top: 108px;
+            left: 100px;
+            width: 60px;
+            height: 40px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        #imagen5 {
+            position: absolute;
+            top: 162px;
+            left: 100px;
+            width: 60px;
+            height: 40px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        #text {
+            margin-left: 110px;
+            width: 220px;
+            top: 10px;
+            left: 0px;
+
+        }
+
+        #texti1 {
+            top: -20px;
+            left: 50px;
+            width: 320px;
+            height: -60px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ffffff;
+        }
+
+        #texti2 {
+            top: 20px;
+            left: 90px;
+            width: 320px;
+            height: -60px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ffffff;
+        }
+
+        #texto1 {
+            color: #ffffff;
+            width: 210px;
+            height: -60px;
+
+        }
+        #texto2 {
+			color: #FFFFFF;
+			width: 210px;
+			height: -60px;
+		}
+        #imagen01 {
+            width: 70px;
+            height: 70px;
+        }
+
+        #imagen02 {
+            width: 80px;
+            height: 80px;
+        }
+
+        header {
+            margin-top: 10px;
+            width: 100%;
+            overflow: hidden;
+            height: 130px;
+            position: relative;
+        }
+
+        nav {
+            top: -20px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 20px auto;
+            max-width: 1000px;
+            width: 90%;
+        }
+
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav>ul {
+            display: table;
+            /*Quitamos el overflow hidden que estaba aqui*/
+            width: 100%;
+            background: #000;
+            position: relative;
+        }
+
+        nav>ul li {
+            display: table-cell;
+        }
+
+        /*Sub-menu*/
+        nav>ul>li:hover>ul {
+            display: block;
+            height: 100%;
+        }
+
+        nav>ul>li>ul {
+            display: block;
+            position: absolute;
+            background: #000;
+            left: 0;
+            right: 0;
+            overflow: hidden;
+            height: 0%;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -ms-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease;
+        }
+
+        nav>ul li a {
+            color: #fff;
+            display: block;
+            line-height: 10px;
+            padding: 20px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -ms-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease;
+        }
+
+        nav>ul>li>ul>li a:hover {
+            background: #5da5a2;
+        }
+
+        nav>ul>li>a span {
+            background: yellow;
+            display: block;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            position: absolute;
+            top: -55px;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -ms-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease;
+        }
+
+        nav>ul>li>a span .icon {
+            display: block;
+            line-height: 90px;
+        }
+
+        nav>ul>li>a:hover>span {
+            top: 0;
+        }
+
+        /*Colores*/
+        nav ul li a .primero {
+            background: #0e5061;
+        }
+
+        nav ul li a .segundo {
+            background: #5da5a2;
+        }
+
+        nav ul li a .tercero {
+            background: #f25724;
+        }
+
+        nav ul li a .cuarto {
+            background: #174459;
+        }
+
+        nav ul li a .quinto {
+            background: #37a4d9;
+        }
+    </style>
+
+
 </head>
 
 <body>
+    
+
+
+    <div id="capa" style="position:relative; top:-20px; left:-195px; width:114.3%; height: 190px; z-index:1; visibility: visible;
+     
+    clip:rect(1 auto auto 3) ;
+    ">
+
+        <img src="C:\Users\Aprendiz\Documents\GitHub\Run-And-Play\Imagenes\sbantransp.png" id="imagen2">
+        </img>
+
+        <div id="capa" style="position:relative; top:50px; left: 1170px; width: 200px; height: 100px; z-index:1; visibility: visible;
+      ">
+            <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">
+                <input type="image" src="C:\Users\Aprendiz\Documents\GitHub\Run-And-Play\Imagenes\facebook.jpg"
+                    style="  width: 90px; height: 90px; clip-path: circle(28.7% at 50% 50%);  " id="imagenlink">
+            </a>
+        </div>
+        <div id="capa2" style="position:relative; top:-57px; left: 1280px; width: 100px; height: 100px; z-index:1; visibility: visible;
+      ">
+            <a href="https://www.whatsapp.com/?lang=es" target="_blank">
+                <input type="image" src="C:\Users\Aprendiz\Documents\GitHub\Run-And-Play\Imagenes\whatsremovebg.png"
+                    style="  width: 90px; height: 90px; clip-path: circle(28.7% at 50% 50%);  " id="imagenlink">
+            </a>
+        </div>
+        <div id="capa3" style="position:relative; top:-163px; left: 1390px; width: 100px; height: 100px; z-index:1; visibility: visible;
+      ">
+            <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank">
+                <input type="image" src="C:\Users\Aprendiz\Documents\GitHub\Run-And-Play\Imagenes\gmaillogo.png"
+                    style="  width: 80px; height: 80px;clip-path: circle(43.1% at 50% 50%);  " id="imagenlink">
+            </a>
+        </div>
+    </div>
+    <div id="capa" style="position:relative; top:-228px; left:-10px; width:135px; height:130px; z-index:1; visibility: visible;
+  background-color:#ffffff; 
+   clip:rect(1 auto auto 3);">
+        <img src="C:\Users\Aprendiz\Documents\GitHub\Run-And-Play\Imagenes\logitorun.png" id="imagen1">
+        </img>
+    </div>
+<div style="position:relative; top:-150px; left:-30px;  width:1366px; height:80px; z-index:1; visibility: visible;
+    background-color:black;">
+        <div>
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="C:\Users\Aprendiz\Documents\GitHub\Run-And-Play\pagina proyecto.html">INICIO</a>
+                        </li>
+                        <li><a
+                                href="paginasweb/SECCIONES RUN AND PLAY/conocenos/pagina proyecto.html 1.html">CONÓCENOS</a>
+                        </li>
+                        <li><a href="paginasweb/SECCIONES RUN AND PLAY/productos/producto.html">PRODUCTOS</a></li>
+                        <li><a href="#">ACERCA DEL PRODUCTO</a></li>
+                        <li><a
+                                href="paginasweb/SECCIONES RUN AND PLAY/contactanos/Run-And-Play-main/contacto.html">CONTÁCTANOS</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
     <div class="slider">
         <ul>
             <li>
@@ -49,7 +334,56 @@
     <div id="tres">
         <h1> <a href="coleccion3/index.html">VER COLECCIÓN</a></h1>
     </div>
+ <div>
+    <div id="capa" name="footer" style="position:absolute; top: 1580px;  width:100%; height: 250px; z-index:1; visibility: visible;bottom:0%;
+ background-color:#030000;clip:rect(1 auto auto 3); margin: 0%;">
+		<img src="C:\Users\Aprendiz\Documents\GitHub\Run-And-Play\Imagenes\teleforemovebg.png" id="imagen3">
+		<img src="C:\Users\Aprendiz\Documents\GitHub\Run-And-Play\Imagenes\whatsremovebg.png" id="imagen4">
+		<img src="C:\Users\Aprendiz\Documents\GitHub\Run-And-Play\Imagenes\logogmail.png" id="imagen5">
+		<div id="capa4" style="position:relative; top:-5px; left:110px; z-index:1; visibility: visible;">
+            <em><h2 id="texti1" style="font-size:25px"> Contacto:</h2> </em> 
+ 
+         </div>
+         
+             <div id="capa4" style="position:relative; top:-30px; left:145px; z-index:1; visibility: visible;">
+                     <h3 id="texti2" style="font-size:15px">3123145678</h3><br>
+                     <h3 id="texti2" style="font-size:15px">3224567890</h3><br>
+                     <h3 id="texti2" style="font-size:15px">runandplay20@gmail.com</h3>
+              </div>
 
+		<div id="capa4" style="position:relative; top:-250px; left:605px;; z-index:1; visibility: visible;
+      
+	  clip:rect(1 auto auto 3);">
+			<img src="C:\Users\Aprendiz\Documents\GitHub\Run-And-Play\Imagenes\logo run perfecto.png" id="imagen0">
+			</img>
+		</div>
+		<div id="capa4" style="position:relative; top:-290px; left:555px; z-index:1; visibility: visible;">
+			<h3 id="texto1"><em><center> ciudadela comfenalco manzana 6 casa 9 etapa #4</center></em> </h3>
+		</div>
+		<div id="capa4" style="position:relative; top:-560px; left:1035px; z-index:1; visibility: visible;">
+			<strong>
+				<h2 id="texto2"><em> redes sociales</em> </h2>
+			</strong>
+		</div>
+		<div id="capa4" style="position:relative; top:-620px; left:1025px; z-index:1; visibility: visible;">
+			<img src="C:\Users\Aprendiz\Documents\GitHub\Run-And-Play\Imagenes\facebook.jpg" id="imagen01" style="clip-path: circle(28.7% at 50% 50%);">
+			</img>
+		</div>
+		<div id="capa4" style="position:relative; top:-720px; left:1080px; z-index:1; visibility: visible;">
+			<img src="C:\Users\Aprendiz\Documents\GitHub\Run-And-Play\Imagenes\instagram logo.png" id="imagen01" style="clip-path: circle(28.7% at 50% 50%);">
+			</img>
+		</div>
+		<div id="capa4" style="position:relative; top:-828px; left:1130px; z-index:1; visibility: visible;">
+			<img src="C:\Users\Aprendiz\Documents\GitHub\Run-And-Play\Imagenes\tik-tok logo.jpg " id="imagen02" style="clip-path: circle(28.7% at 50% 50%);">
+			</img>
+		</div>
+		<div id="capa4" style="position:relative; top:-860px; left:1040px; z-index:1; visibility: visible;">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.62552565127908!2d-75.15753899250464!3d4.409614432014367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38dba960253185%3A0xcda165b340b73dcf!2sComfenalco%20cuarta%20etapa!5e0!3m2!1ses!2sco!4v1666106667978!5m2!1ses!2sco"
+				width="150" height="120" style="border:0;" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+ </div>
 </body>
 
 </html>
